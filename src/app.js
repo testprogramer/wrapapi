@@ -4,9 +4,9 @@ const swaggerSetup = require('./swagger');
 const app = express();
 swaggerSetup(app);
 
-app.listen(3000, () => {
-    console.log('Server is running on http://localhost:3000');
-    console.log('API docs are available at http://localhost:3000/api-docs');
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
 
 /**
