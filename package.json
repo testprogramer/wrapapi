@@ -1,0 +1,15 @@
+{
+  "name": "wrap-api",
+  "version": "1.0.0",
+  "description": "Wrap API TCBS",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "author": "N-X-T",
+  "dependencies": {
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
