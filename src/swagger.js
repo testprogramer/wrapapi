@@ -9,11 +9,6 @@ const swaggerOptions = {
             version: '1.0.0',
             description: 'Mô tả API lấy thông tin cổ phiếu',
         },
-        servers: [
-            {
-                url: 'http://localhost:3000', // URL của server API
-            },
-        ],
     },
     apis: ['./src/*.js'], // Đường dẫn đến file định nghĩa API
 };
